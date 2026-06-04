@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Me - XP Style</title>
+
+<style>
+/* ===== GLOBAL ===== */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Tahoma, sans-serif;
+  background-image: url("https://wallpapercave.com/wp/wp2754931.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* ===== BANNER ===== */
+.banner {
+  background-color: #4CAF50;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #575757;
+}
+
+/* ===== XP WINDOW ===== */
+.xp-window {
+  width: 400px;
+  border: 2px solid #000080;
+  box-shadow: 4px 4px 0px #000080;
+  background-color: #C0C0C0;
+  margin: 50px auto;
+}
+
+/* Title bar */
+.title-bar {
+  background: linear-gradient(to bottom, #000080, #0000CD);
+  color: white;
+  padding: 5px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title-bar .buttons span {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  text-align: center;
+  line-height: 16px;
+  margin-left: 2px;
+  cursor: pointer;
+  background-color: #C0C0C0;
+  color: black;
+  border: 1px solid #808080;
+}
+
+/* Window content */
+.window-content {
+  background-color: #FFFFFFCC;
+  padding: 15px;
+}
+
+/* Profile */
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #000080;
+  margin-bottom: 10px;
+  object-fit: cover;
+}
+
+/* Sections */
+.section {
+  margin-bottom: 10px;
+}
+
+.section h3 {
+  margin: 0 0 5px 0;
+  font-size: 14px;
+  color: #000080;
+}
+
+.section p,
+.section ul {
+  margin: 0;
+  font-size: 12px;
+}
+
+.section ul {
+  padding-left: 20px;
+}
+
+/* Social links */
+.social-links a {
+  display: inline-block;
+  margin-right: 10px;
+  text-decoration: none;
+  font-size: 12px;
+  color: #0000CD;
+  border: 1px solid #000080;
+  padding: 2px 5px;
+  background-color: #C0C0C0;
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- BANNER -->
+<div class="banner">
+  OCELOT_XM7
+</div>
+
+<!-- NAVBAR -->
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <a href="interests.html">Interests</a>
+  <a href="techstuff.html">Tech Stuff</a>
+  <a href="contact.html">Contact</a>
+</div>
+
+<!-- XP WINDOW -->
+<div class="xp-window">
+  <div class="title-bar">
+    <div class="title">Home</div>
+    <div class="buttons">
+      <span>-</span>
+      <span>□</span>
+      <span>x</span>
+    </div>
+  </div>
+
+  <div class="window-content">
+
+    <img src="images/file_0000000099ec71f49f42cd46b4b1d5b0.png"
+         alt="Profile Picture"
+         class="profile-pic">
+
+    <div class="section">
+      <h3>My Setup</h3>
+      <p>The place where I spend most of my time, technical specs below!</p>
+      <br>
+      <p>PC SPECS:
+        <BR>
+        CPU: i5 13400f
+        <BR>
+        GPU: RTX 5050 8GB
+        <BR>
+        RAM: 16GB DDR4 3200MHZ
+        <BR>
+        MOBO: GIGABYTE B760M GAMING AC WIFI DDR4
+        <BR>
+        PSU: DEEPCOOL PM750D 750W 80+ GOLD PSU
+        <BR>
+        STORAGE: 1TB ADDLINK SATA SSD 
+        <BR>
+        CASE: FSP CM211A
+        <BR>
+        CPU COOLER: NZXT T120
+      </p>
+      <br>
+      <P>OTHER:
+        <BR>
+          MONITORS: ASUS V429HG 1080P 120HZ, DELL P2219H 1080P 60HZ, AOC 22E1H 1080P 60HZ
+          <BR>
+            KEYBOARD:REDRAGON K552-BA-1 RGB MECHANICAL KEYBOARD
+            <BR>
+              MOUSE: REDRAGON M602 RGB GAMING MOUSE
+              <BR>
+                MIC: RAZER SEIREN V3
+                <BR>
+                  HEADSET: THRONMAX THX-50 STUDIO HEADPHONES
+                <BR>
+                  CONTROLLER: XBOX SERIES X 2020 CONTROLLER
+      </P>
+      <BR>
+      <h3>SOME PROJECTS I'VE DONE:</h3>
+      <P>AI HOMELAB:</P>
+      <P>
+Designed and deployed a self-hosted AI homelab environment centered around LM Studio for local large language model inference. The platform hosts Meta's Llama 3.1 8B model for natural language processing tasks and Llama 3.2 multimodal models for image and vision-based workflows.
+
+To extend model capabilities beyond local knowledge, I integrated a self-hosted SearXNG search service, enabling internet-based information retrieval while maintaining control over privacy and infrastructure. The system provides a cloud-independent AI environment capable of conversational assistance, information retrieval, and multimodal analysis.
+<br>
+Key Technologies:
+<br>
+• LM Studio
+<br>
+• Llama 3.1 8B
+<br>
+• Llama 3.2 Vision
+<br>
+• SearXNG
+<br>
+• Self-hosted AI Infrastructure
+<br>
+• Local Inference and Model Serving
+<br>
+• Retrieval-Augmented AI Workflows
+<br>
+• Linux/Home Server Administration
+ </P>
+ <br>
+ <p>CUSTOM RETRO GAMING CONSOLE PROJECT (PlayStation 3):</p>
+ 
+ <p>
+
+ • Modified and configured a PlayStation 3 system with custom firmware to enable advanced system management and homebrew software support.
+ <br>
+ • Replaced the original hard disk drive with a solid-state drive (SSD), improving system responsiveness, load times, and storage reliability.
+ <br>
+ • Installed and configured RetroArch as a multi-platform emulation environment, optimizing settings for performance and compatibility across multiple retro gaming systems.
+ <br>
+ • Implemented a digital game preservation workflow by creating and organizing backup copies of personally owned game media.
+ <br>
+ • Managed system software installation, storage migration, file transfers, and troubleshooting throughout the upgrade process.
+ <br>
+ • Documented configuration procedures and maintenance steps to ensure repeatability and long-term system stability.
+</p>
+<BR>
+  <P>OS SIMULATION USING HTML+CSS+JS:</P>
+  <P>
+
+OcelotOS Simulation is a browser-based operating system that recreates the functionality and user experience of a modern desktop environment. It includes a complete window manager, virtual file system, application framework, process management, networking simulation, security controls, system services, persistence, customization options, and a suite of built-in applications.
+
+The platform supports multi-user workflows, desktop customization, package management, terminal operations, notifications, widgets, cloud features, and simulated hardware monitoring, all running entirely within the browser. Designed with modular architecture and persistent storage, it demonstrates how core operating system concepts can be implemented using modern web technologies.
+</P>
+
+
+    </div>
+
+   
+
+
+</body>
+</html>
